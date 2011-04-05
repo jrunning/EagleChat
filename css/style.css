@@ -93,15 +93,21 @@ header {
 				header nav ul li a.active {  }
 				
   header p {
-    margin-top: .25em;
+    font-size: smaller;
+    position: relative;
+    float: right;
+    bottom: 1.5em;
+    color: #49281f;
+
   }
   header a {
-    color: black;
+    color: #49281f;
   }
 		
-  #fb-like {
-    margin-top: -.25em;
-  }
+#fb-like {
+  height: 23px;
+  margin-bottom: .33em;
+}
 
 #warp {  }
 	#warp .inside {  }
