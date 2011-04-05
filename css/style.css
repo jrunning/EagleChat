@@ -26,14 +26,18 @@ input, select { vertical-align: middle; }
 							Typography
 	fonts.css from the YUI Library: http://developer.yahoo.com/yui/
 \*---------------------------------------------------------------------*/
-body { font:13px/1.231 'Droid Sans', arial, sans-serif; }
+body { font:13px/1.231 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 pre, code, kbd, samp { font-family: 'Courier New', monospace, sans-serif; }
 
 /* -:[ Fibonacci based heading scale ratio ]:- */
-	h1 { font-size: 4.4em; font-weight: normal; }
-	h2 { font-size: 2.8em; font-weight: bold; }
-	h3 { font-size: 1.6em; font-weight: bold; }
-	h4 { font-size: 1.2em; font-weight: bold; }
+h1 {
+  font-size: 4.4em; font-weight: bold;
+  font-family: 'Cabin Sketch', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+}
+h2 { font-size: 2.8em; font-weight: bold; }
+h3 { font-size: 1.6em; font-weight: bold; }
+h4 { font-size: 1.2em; font-weight: bold; }
 
 /* -:[ Remove text-shadow from text selection for better readability: http://twitter.com/miketaylr/status/12228805301  ]:- */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
@@ -70,7 +74,7 @@ body {
 }
 
 header {  }
-	header .inside {  }
+	header .inside { margin: .5em; }
 		header nav {  }
 			header nav ul {  }
 			header nav ul li {  }
@@ -78,6 +82,9 @@ header {  }
 				header nav ul li a:hover {  }
 				header nav ul li a.active {  }
 				
+header p {
+  margin-top: -.5em;
+}
 
 		
 #warp {  }
