@@ -34,6 +34,7 @@ h1 {
   font-size: 4.4em; font-weight: bold;
   font-family: 'Cabin Sketch', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
+  color: #49281F;
 }
 h2 { font-size: 2.8em; font-weight: bold; }
 h3 { font-size: 1.6em; font-weight: bold; }
@@ -68,13 +69,21 @@ h4 { font-size: 1.2em; font-weight: bold; }
 \*----------------------------------------------------------------------------------*/
 
 body { 
-	background: ; 
-	color: ; 
-	font: ;
+	background-color: #cfb590;  
 }
 
-header {  }
-	header .inside { margin: .25em .5em .25em .5em; }
+#main {
+  margin: 0 auto 0 auto;
+  width: 504px;
+  background-color: #564334;
+}
+
+header {
+  background-color: #758918;
+}
+	header .inside {
+	  padding: .5em;
+	}
 		header nav {  }
 			header nav ul {  }
 			header nav ul li {  }
@@ -82,17 +91,39 @@ header {  }
 				header nav ul li a:hover {  }
 				header nav ul li a.active {  }
 				
-header p {
-  margin-top: -.5em;
-}
+  header p {
+    margin-top: -.5em;
+  }
+  header a {
+    color: black;
+  }
 
 		
 #warp {  }
 	#warp .inside {  }
 			
-footer {  }
-	footer .inside { margin: .25em .5em .25em .5em; }
-			
+footer { 
+  color: #cfb590;
+}
+	footer .inside {
+	  padding: .33em 0 .33em 0;
+	}
+  footer p, footer p a {
+    vertical-align: top;
+  }
+  footer a {
+    color: #cfb590;
+  }
+
+header, #warp, footer {
+  width: 480px;
+  margin: 0 auto 0 auto; 
+}			
+
+#video { 
+  margin: 0; padding: 0;
+  height: 346px;
+}
 
 
 /*------------------------------------------------------------------------------*\

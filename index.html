@@ -27,34 +27,39 @@
 </head>
 
 <body class="eaglechat-us">
-	<header>
-		<section class="inside" >
-			<h1>EagleChat</h1>
-      <p>Not affiliated with <a href="http://raptorresource.org/">Raptor Resource Project</a></p>
-		</section>
-	</header>
+  <div id="main" />
+    <header>
+      <section class="inside" >
+        <h1>EagleChat</h1>
+        <p>Not affiliated with <a href="http://raptorresource.org/">Raptor Resource Project</a></p>
+      </section>
+    </header>
 
-  <section id="warp">
-    <object id="video" width="480" height="346" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
-      <param name="flashvars" value="cid=3064708&amp;autoplay=false"/>
-      <param name="allowfullscreen" value="true"/>
-      <param name="allowscriptaccess" value="always"/>
-      <param name="src" value="http://www.ustream.tv/flash/viewer.swf"/>
-      <embed flashvars="cid=3064708&amp;autoplay=false" width="480" height="346" allowfullscreen="true" allowscriptaccess="always" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash"></embed>
-    </object>
-  
-    <div id="fb-root"></div>
-    <script src="http://connect.facebook.net/en_US/all.js#appId=211725438839786&amp;xfbml=1"></script>
-    <fb:live-stream event_app_id="211725438839786" width="480" height="500" xid="" always_post_to_friends="false"></fb:live-stream>
-  </section>
-
-  <footer>
-    <section class="inside">
-      Icons
-      <img src="http://i.creativecommons.org/l/by-nc-sa/2.0/80x15.png" width="80" height="15" alt="CC BY-NC-SA 2.0" />
-      <a href="http://www.flickr.com/photos/fusky/4052541910/in/photostream/">Iván Sánchez</a>
+    <section id="warp">
+      <div id="video">
+        <object width="480" height="346" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+          <param name="flashvars" value="cid=3064708&amp;autoplay=false"/>
+          <param name="allowfullscreen" value="true"/>
+          <param name="allowscriptaccess" value="always"/>
+          <param name="src" value="http://www.ustream.tv/flash/viewer.swf"/>
+          <embed flashvars="cid=3064708&amp;autoplay=false" width="480" height="346" allowfullscreen="true" allowscriptaccess="always" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash"></embed>
+        </object>
+      </div>
+    
+      <div id="fb-root"></div>
+      <script src="http://connect.facebook.net/en_US/all.js#appId=211725438839786&amp;xfbml=1"></script>
+      <fb:live-stream event_app_id="211725438839786" width="480" height="500" xid="" always_post_to_friends="false"></fb:live-stream>
     </section>
-  </footer>
+
+    <footer>
+      <section class="inside">
+        <p>Icons by
+          <a href="http://www.flickr.com/photos/fusky/4052541910/in/photostream/">Iván Sánchez</a>
+          <img src="images/cc-by-nc-sa.png" width="44" height="12" alt="CC BY-NC-SA 2.0" />
+        </p>
+      </section>
+    </footer>
+  </div>
 
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">google.load('jquery', '1.5.1');</script>
