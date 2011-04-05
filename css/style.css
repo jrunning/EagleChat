@@ -107,14 +107,14 @@ footer {
   color: #cfb590;
 }
 	footer .inside {
-	  padding: .33em 0 .33em 0;
+	  padding: .5em 0 .5em 0;
 	}
-  footer p, footer p a {
-    vertical-align: top;
-  }
   footer a {
     color: #cfb590;
   }
+    footer p img {
+      margin-bottom: -2px;
+    }
 
 header, #warp, footer {
   width: 480px;
