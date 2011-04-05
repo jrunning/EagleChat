@@ -93,13 +93,16 @@ header {
 				header nav ul li a.active {  }
 				
   header p {
-    margin-top: -.5em;
+    margin-top: .25em;
   }
   header a {
     color: black;
   }
-
 		
+  #fb-like {
+    margin-top: -.25em;
+  }
+
 #warp {  }
 	#warp .inside {  }
 			
@@ -125,7 +128,6 @@ header, #warp, footer {
   margin: 0; padding: 0;
   height: 346px;
 }
-
 
 
 /*------------------------------------------------------------------------------*\
