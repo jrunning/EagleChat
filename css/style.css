@@ -74,7 +74,7 @@ body {
 }
 
 header {  }
-	header .inside { margin: .5em; }
+	header .inside { margin: .25em .5em .25em .5em; }
 		header nav {  }
 			header nav ul {  }
 			header nav ul li {  }
@@ -91,7 +91,7 @@ header p {
 	#warp .inside {  }
 			
 footer {  }
-	footer .inside {  }
+	footer .inside { margin: .25em .5em .25em .5em; }
 			
 
 
