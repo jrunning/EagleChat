@@ -93,24 +93,25 @@ header {
 				header nav ul li a.active {  }
 				
   header p {
-    font-size: smaller;
-    xposition: relative;
-    xfloat: right;
+    font-size: 88%;
     bottom: 1.5em;
     color: #49281f;
-    margin-bottom: -1em;
-
   }
   header a {
     color: #49281f;
   }
 		
-#fb-like {
-  height: 23px;
+#share div {
   margin-bottom: .33em;
 }
 
-#rrp-donate {
+#fb-like {
+  height: 23px;
+}
+
+#rrp-donate input {
+  margin-top: -2px;
+  margin-left: .33em;
 }
 
 #warp {  }
