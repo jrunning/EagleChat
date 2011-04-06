@@ -29,7 +29,7 @@
   <link rel="image_src" href="/images/video-thumbnail.png" />
   <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:bold' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="/css/style.css?v=6" type="text/css">
+	<link rel="stylesheet" href="css/style.css?v=6" type="text/css">
 	<script src="http://html5-boilerplate.googlecode.com/svn/trunk/%20html5-boilerplate/js/modernizr-1.6.min.js"></script>
 </head>
 
@@ -48,7 +48,26 @@
           </div>
         </div>
 
-        <p>Not affiliated with <a href="http://raptorresource.org/">Raptor Resource Project</a></p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="rrp-donate">
+          <p>Not affiliated with <a href="http://raptorresource.org/">Raptor Resource Project</a>.
+            Make a donation to RRP here:
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="amy@raptorresource.org">
+            <input type="hidden" name="item_name" value="Raptor Resource Project">
+            <input type="hidden" name="buyer_credit_promo_code" value="">
+            <input type="hidden" name="buyer_credit_product_category" value="">
+            <input type="hidden" name="buyer_credit_shipping_method" value="">
+            <input type="hidden" name="buyer_credit_user_address_change" value="">
+            <input type="hidden" name="no_shipping" value="0">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="tax" value="0">
+            <input type="hidden" name="lc" value="US">
+            <input type="hidden" name="bn" value="PP-DonationsBF">
+            <input type="image" src="images/paypal-donate.png" width="56" height="16" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </p>
+        </form>
       </section>
     </header>
 

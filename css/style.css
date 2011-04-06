@@ -94,8 +94,8 @@ header {
 				
   header p {
     font-size: smaller;
-    position: relative;
-    float: right;
+    xposition: relative;
+    xfloat: right;
     bottom: 1.5em;
     color: #49281f;
     margin-bottom: -1em;
@@ -108,6 +108,9 @@ header {
 #fb-like {
   height: 23px;
   margin-bottom: .33em;
+}
+
+#rrp-donate {
 }
 
 #warp {  }
