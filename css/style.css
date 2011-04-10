@@ -31,7 +31,7 @@ pre, code, kbd, samp { font-family: 'Courier New', monospace, sans-serif; }
 
 /* -:[ Fibonacci based heading scale ratio ]:- */
 h1 {
-  font-size: 4.4em; font-weight: bold;
+  font-size: 3.5em; font-weight: bold;
   font-family: 'Cabin Sketch', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   color: #49281F;
